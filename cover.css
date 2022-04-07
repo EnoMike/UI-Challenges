@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("navyblue-wall.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.navbar-header>a{
+    font-size: 3rem;  
+    padding: 30px 30px;
+}
+
+.navbar-nav>li>a {
+    font-size: 2rem;
+    padding: 30px 10px;
+}
+
+.nav>li>a, a {
+    color: white;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    
+}
+
+.nav>li>a:focus, .nav>li>a:hover, .nav>li>a:active{
+    color: white;
+    border-bottom-color: white;
+    background-color: transparent;
+
+}
+
+div>a:focus, div>a:hover, div>a:active{
+    color: white;
+}
+
+.main {
+    margin: auto;
+    width: 40%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-par{
+    padding: 20px 10px;
+    font-size: 2rem;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.pad5 {
+    padding: 0px 5px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .main {
+        width: 80%;
+        height: 50vh;
+    }
+    .hide-menu {
+        display: inline;
+    }
+}
