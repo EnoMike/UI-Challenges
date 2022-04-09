@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(frosty-blue.jpg);
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+    margin: auto; 
+}
+
+.section-1 {
+    padding: 20px;
+    text-align: left;
+}
+
+.main-text {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.main-par {
+    font-size: 2rem;
+}
+
+.section-2 {
+    padding: 10px;
+}
+
+.lg-text {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.try{
+    background-color: blueviolet;
+    width: 100%;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.form-container {
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px 10px;
+}
+
+form {
+    width: 80%;
+    margin: 10px auto;
+    padding: 30px 10px;
+}
+
+.terms {
+    text-align: center;
+    padding: 10px;
+}
+
+.terms > small {
+    color: black;
+}
+
+.terms > small > em {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+}
+@media (max-width: 992px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+}
